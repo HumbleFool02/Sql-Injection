@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      padding-top: 5%;
+    }
+    .container {
+      border: 1px solid #00ff00;
+      padding: 20px;
+      width: fit-content;
+      margin: auto;
+      box-shadow: 0 0 10px #00ff00;
+    }
+    img {
+      margin-top: 20px;
+      max-width: 400px;
+      box-shadow: 0 0 10px #00ff00;
+    }
+    a {
+      color: #00ff00;
+      text-decoration: underline;
+      margin-top: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>A Message for You</h1>
+    <p>{{ message|safe }}</p>
+    {% if image %}
+      <img src="{{ image }}" alt="profile image">
+    {% endif %}
+    <br>
+    <a href="{{ url_for('login') }}">← Back to Login</a>
+  </div>
+</body>
+</html>
