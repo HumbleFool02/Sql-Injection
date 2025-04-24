@@ -1,11 +1,11 @@
 
-# 🕵️ SQL Injection CTF Challenge
+# SQL Injection CTF Challenge
 
 Welcome to a beginner-friendly **Capture The Flag (CTF)** challenge designed to teach you the basics of **SQL Injection** and **role-based access control** vulnerabilities using a real-world inspired scenario.
 
 ---
 
-## 📌 Challenge Description
+## Challenge Description
 
 This challenge is a Flask-based web application with:
 
@@ -20,9 +20,9 @@ Your goal is to:
 
 ---
 
-## 🚀 How to Run the Challenge
+## How to Run the Challenge
 
-### 🧱 Option 1: Run Locally (Using Python)
+### Option 1: Run Locally (Using Python)
 
 > Requires: Python 3.x
 
@@ -59,7 +59,7 @@ http://localhost:5000
 
 ---
 
-### 🐳 Option 2: Run via Docker (Recommended)
+### Option 2: Run via Docker (Recommended)
 
 > Docker Desktop must be installed on your system.
 
@@ -78,7 +78,7 @@ http://localhost:5000
 
 ---
 
-## 🎯 Objective: How to Solve
+## Objective: How to Solve
 
 1. Use SQL Injection on the login page:
    ```
@@ -104,7 +104,7 @@ flag{CTF_is_awesome}
 
 ---
 
-## 🧑‍💻 Created By
+## Created By
 
 **Piyush (humblefool07)**  
 Feel free to try out the challenge
