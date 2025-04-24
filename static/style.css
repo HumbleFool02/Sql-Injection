@@ -1,4 +1,4 @@
-/* Reset some default styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Header Styles */
+
 header {
     background: #333;
     color: #fff;
@@ -19,7 +19,7 @@ header {
     text-align: center;
 }
 
-/* Main Content Styles */
+
 main {
     padding: 20px;
     margin: 20px auto;
@@ -29,7 +29,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styles */
+
 footer {
     text-align: center;
     padding: 10px 0;
