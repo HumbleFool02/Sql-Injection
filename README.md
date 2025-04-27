@@ -82,7 +82,7 @@ http://localhost:5000
 
 1. Use SQL Injection on the login page:
    ```
-   ' OR '1'='1 --
+   ' OR '1' --
    ```
 
 2. View the page source for a hidden hint:
